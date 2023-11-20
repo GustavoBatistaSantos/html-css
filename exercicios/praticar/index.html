@@ -3,43 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos DOM</title>
-    <style>
-        #area{
-            background-color: green;
-            color: white;
-            width: 200px;
-            height: 200px;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 200px;
-            text-align: center;
-            text-decoration: none;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
-    <div id="area">
-        Interaja..
-    </div>
-    <script>
-        var a = window.document.getElementById('area')
-
-        a.addEventListener=('click', clicar)
-        a.addEventListener=('mouseout', sair)
-        a.addEventListener=('mouseenter', entrou)
-
-        function clicar(){
-            a.innerText='clicou'
-            a.style-background = 'red'
-        }
-
-        function sair(){
-            a.innerText = 'saiu'
-        }
-
-        function entrou(){
-            a.innerText = 'saiu'
-        }
-    </script>
+    <h1>Jogo do telefone sem fio</h1>
+    <p>o jogo do telefene sem fio é uma brincadeira muito antiga aonde os participantes devem cochichar uma frase no ouvido dos outros integrantes até que a mensagem seja transmitida para ultima pessoa</p>
 </body>
 </html>
