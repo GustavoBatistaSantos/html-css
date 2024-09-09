@@ -8,6 +8,17 @@
 <body>
     <h1>Imagem dinâmica</h1>
     <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
-    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotos-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotos-m.png" type="image/png">
+        <img src="imagens/fotos-g.png" alt="foto grande">
+        <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir audios em HTML5</p>
+        <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+        <audio preload="metadata" autoplay controls loop></audio>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="" type="">
+        <p>href=""</p>
+    </picture>
 </body>
 </html>
