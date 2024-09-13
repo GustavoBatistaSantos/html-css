@@ -4,5 +4,15 @@ Body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: justify;
-    background-color: rgb(244, 239, 138);
+    background-color: rgb(252, 249, 200);
+}
+
+h1{
+    color: rgb(95, 4, 4);
+    text-decoration: underline;
+    background-color: rgb(194, 115, 6);
+}
+
+h2{
+    color: rgb(95, 4, 4);
 }
