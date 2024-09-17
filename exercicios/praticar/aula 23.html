@@ -3,28 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de caixas</title>
+    <title>Teste de imagens de fundo</title>
     <style>
-        h1{
-            background-color: gray;
-            height: 300px;
-            width: 300px;
-            border: 10px solid rgb(1, 67, 1);
-            padding: 10px 20px;
-            margin: 20px auto 40px auto;
-            outline: 5px dashed salmon;
+        body{
+            background-image: url(imagensdefundo/wallpaper001.jpg);
         }
 
-        a{
-            border: 10px solid red;
-            padding: 10px
-            
+        .quadrado{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
 
+        #q1{
+            background-color: rgb(108, 191, 236);
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        #q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        #q3{
+            background-image: url(imagensdefundo/pattern003.png);
         }
     </style>
 </head>
 <body>
-    <h1>Exemplo de caixas box-level</h1>
-    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-levels</a>.Vamos ver como tudo isso funciona</p>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
 </body>
 </html>
