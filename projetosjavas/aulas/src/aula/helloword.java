@@ -1,11 +1,10 @@
-package mobile;
+package aula;
 
 public class helloword {
     public static void main(String[] args) {
+
         
-    } {
-        
-    }{
+
 
         String nome = "Gustavo Batista santos";
         byte idade = 65; //-128 ate +128

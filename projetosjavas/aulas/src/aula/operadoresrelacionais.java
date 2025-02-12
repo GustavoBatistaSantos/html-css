@@ -1,4 +1,4 @@
-package mobile;
+package aula;
 
 public class operadoresrelacionais {
     public static void main(String[] args) {
