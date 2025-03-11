@@ -10,7 +10,7 @@ public class alternativas {
         System.out.println("Abra a sua conta");
         break;
 
-        case 2:
+        case 2: 
         System.out.println("Fatura do cartao");
         break;
 
