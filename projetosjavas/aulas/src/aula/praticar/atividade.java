@@ -1,4 +1,4 @@
-public package aula.praticar;
+public package aula;
 
 class atividade {
 
