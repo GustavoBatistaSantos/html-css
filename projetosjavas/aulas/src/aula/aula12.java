@@ -1,6 +1,7 @@
 package aula;
 
-public class para {
+public class aula12 {
+    //condicional para
     public static void main(String[] args) {
         
         for( int x= 0; x <=5; x++){

@@ -1,7 +1,8 @@
 
 package aula;
 
-public class condicional {
+public class aula10 {
+    //operadores condicioanl if else
     /*public static void main(String[] args) {
         if (false) {
             System.out.println("verdadeiro");

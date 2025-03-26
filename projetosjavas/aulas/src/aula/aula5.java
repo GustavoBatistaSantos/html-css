@@ -2,7 +2,8 @@ package aula;
 
 import java.util.Scanner;
 
-public class ClassScanner {
+public class aula5 {
+    //aula de scanner
     
     public static void main(String[] args) {
         Scanner texto = new Scanner(System.in); //entrada padrão de dados e texto objeto para pegar dados do teclado

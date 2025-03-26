@@ -1,6 +1,6 @@
 package aula;
 
-public class helloword {
+public class aula1 {
     public static void main(String[] args) {//método construtor para rodar o programa
 
         

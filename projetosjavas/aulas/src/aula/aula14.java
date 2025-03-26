@@ -1,7 +1,7 @@
 package aula;
 
-public class alternativas {
-    //Switch opções 
+public class aula14 {
+    //condicional Switch opções 
     public static void main(String[] args) {
         int opcoes = 2;
 

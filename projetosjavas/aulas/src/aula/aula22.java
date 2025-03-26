@@ -1,6 +1,6 @@
 package aula;
 
-public class vetor {
+public class aula22 {
     public static void main(String[] args) {
         //arrays listas
         /*String[] lista_nome = {"Pedro", "Maria", "Joao", "Marcos"};

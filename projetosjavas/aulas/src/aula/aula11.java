@@ -1,6 +1,6 @@
 package aula;
 
-public class emquanto {
+public class aula11 {
     //while = enquanto
     public static void main(String[] args) {
         

@@ -2,8 +2,8 @@ package aula;
 
 import java.util.Random;
 
-public class numeroAleat {
-
+public class aula4 {
+//aula de números aleatorios
     public static void main(String[] args) {
         Random aleatorio = new Random();
         float valor = aleatorio.nextFloat() * 100;//entre 0 e 100

@@ -2,7 +2,7 @@ package aula;
 
 import java.util.Scanner;
 
-public class cost {
+public class aula6 {
     private static final double LARGURA = 10.0;
     //final para constante
 

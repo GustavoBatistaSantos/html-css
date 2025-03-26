@@ -1,7 +1,7 @@
 package aula;
 
-public class operadorlogico {
-    
+public class aula13 {
+    //condicinal logica
     public static void main(String[] args) {
         /*
          operadores lógicos 
