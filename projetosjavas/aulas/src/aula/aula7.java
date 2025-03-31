@@ -2,6 +2,7 @@ package aula;
 
 public class aula7 {
     public static void main(String[] args) {
+        //atribuição
         int num = 0;
         System.out.println("o valor original e " + num );
         num +=3;
