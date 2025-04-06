@@ -8,19 +8,19 @@
 body {
     background-image: linear-gradient(to right, #B484D9, #AEA1F0);
 }
-main {
+main {/*conteúdo principal do site*/
     background-color: white;
-    width: 600px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px #3e2d4b9e;
-    padding: 10px;
-    margin: auto;
+    width: 600px; /*para fazer a largura*/
+    border-radius: 10px; /*para fazer o arredondamento das bordas*/
+    box-shadow: 5px 5px 15px #3e2d4b9e; /*para fazer sombra na seção*/
+    padding: 10px; /*espaçamento interno*/
+    margin: auto;/*espaçamento externo*/
 }
 
 h1{
     color: #F596FA;
     text-align: center;
-    text-shadow: 1px 1px 2px #6c416e9b;
+    text-shadow: 1px 1px 2px #6c416e9b;/* para fazer sobra do texto*/
 }
 
 h2{
