@@ -1,4 +1,4 @@
-package aula;
+package aulas;
 
 public class aula13 {
     //condicinal logica

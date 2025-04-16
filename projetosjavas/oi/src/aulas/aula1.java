@@ -1,4 +1,4 @@
-package aula;
+package aulas;
 
 public class aula1 {
     public static void main(String[] args) {//método construtor para rodar o programa

@@ -1,4 +1,4 @@
-package aula;
+package aulas;
 
 public class aula2 {
 
