@@ -12,9 +12,11 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php"  autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p><label for="inome">nome:</label>
              <input type="text" name="inome" id="nome"></p>
+             <!--get so pega ate 3 mil bites, e não é bom para dados sensíveis-->
+             <!--post não aparece o nome na url, mas da para capturar pelo vscode-->
              <!--name melhor pro php html e o id java script-->
         <p><label for="isobrenome">sobrenome:</label> 
             <input type="text" name="isobrenome" id="sobrenome"></p>
