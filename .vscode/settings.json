@@ -2,7 +2,7 @@
     "liveServer.settings.multiRootWorkspaceName": "html-css",
     "liveServer.settings.port": 5501,
     "java.project.sourcePaths": [
-        "projetosjavas/aulas/src",
-        "projetosjavas/oi/src/aulas"
+        "projetosjavas/oi/src/aulas",
+        "aulasmobile/mobile/src/aulas"
     ]
 }
