@@ -1,4 +1,4 @@
-package aulas;
+package aula;
 
 public class aula8 {
     //aula de incrmento e decremento

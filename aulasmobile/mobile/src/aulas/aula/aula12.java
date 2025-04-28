@@ -1,4 +1,4 @@
-package aulas;
+package aula;
 
 public class aula12 {
     //condicional para

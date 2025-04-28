@@ -1,9 +1,9 @@
-package aulas;
+package aula;
 
 public class aula14 {
     //condicional Switch opções 
     public static void main(String[] args) {
-        int opcoes = 2;
+        int opcoes = 5;
 
     switch(opcoes){
         case 1: 

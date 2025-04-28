@@ -1,4 +1,4 @@
-package aulas;
+package aula;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package aulas;
+package aula;
 import java.util.Scanner;
 //aula de if e else
 public class aula10 {

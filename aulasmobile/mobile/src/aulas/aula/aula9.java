@@ -1,4 +1,4 @@
-package aulas;
+package aula;
 //operadores ternarios= usados para decidir avaliar expressões booleanas e decidir qual valor será atribuido a uma variável.
 public class aula9 {
 
