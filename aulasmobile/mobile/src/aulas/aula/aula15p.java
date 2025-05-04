@@ -13,7 +13,9 @@ public class aula15p {
         livro.autor = "J.R.R. Tolkien";
         livro.dataPub = "1954";
 
-        System.out.println("A data de publicação do livro " + livro.nome + " é do ano de " + livro.dataPub);
+        //fazer um system out de exemplo
+        //chama o método
+        livro.dadosLivro();
 
 
     }
