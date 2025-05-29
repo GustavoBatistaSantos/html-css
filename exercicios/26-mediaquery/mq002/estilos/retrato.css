@@ -1,2 +1,8 @@
 @charset "UTF-8";
 /* Estilos para telas retrato */
+
+body {
+    /*background-color: darkgreen;*/
+    background: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom; /*imagem centralizada e em baixo*/
+}

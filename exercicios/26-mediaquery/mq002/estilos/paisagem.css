@@ -1,2 +1,8 @@
 @charset "UTF-8";
 /* Estilos para telas paisagens */
+
+body {
+    /*background-color: red;*/
+    background: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom; /*imagem alinhada a esquerda e em baixo*/
+}
