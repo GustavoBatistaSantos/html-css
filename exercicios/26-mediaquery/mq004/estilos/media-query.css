@@ -60,7 +60,7 @@ tv: 1200px - acima
     #tv{display: none;}
 }
 
-@media screen and (min-width: 1200px) { /*telas grandes */
+@media screen and (min-width: 993px) { /*telas grandes */
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
