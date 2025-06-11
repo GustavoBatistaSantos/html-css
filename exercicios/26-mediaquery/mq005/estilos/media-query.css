@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/*typical device break points pesquisar no google a resolução da época 
+celular: -600px
+tablet: 601px-768px
+desktop: 769px-992px
+tv: 1200px - acima
+*/
+
+@media screen and (min-width:601px) {
+    
+}
