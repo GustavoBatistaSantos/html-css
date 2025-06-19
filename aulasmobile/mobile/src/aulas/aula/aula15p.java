@@ -14,9 +14,8 @@ public class aula15p {
         livro.dataPub = "1954";
 
         //fazer um system out de exemplo
+        //System.out.println(livro.nome);
         //chama o método
-        livro.dadosLivro();
-
-
+        //livro.dadosLivro();
     }
 }
