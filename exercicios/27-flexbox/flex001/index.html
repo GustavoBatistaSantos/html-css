@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        .container{
+            background-color: lightsalmon;
+            display: flex;
+            /*Flex direction padrão é o row(linha)*/
+            /*flex direction row reverse inverte a linha*/
+            /*flex direction column e de cima para baixo*/
+            /*flex direction column reverse de baixo pre cima*/
+            /*main axis é o eixo principal começando pelo main start terminando main end*/
+            /* o eixo y é chamado de cross-start começando pelo cross start e terminando no cross end*/
+            /*nas main direction reverse so muda a posição do start e do end no eixo x*/
+            /*nas cross direction reverse so muda a posição do start e do end no eixo y*/
+        }
+
+        .item{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;/*para deixar fluido*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
