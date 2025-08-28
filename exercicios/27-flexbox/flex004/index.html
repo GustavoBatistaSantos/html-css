@@ -1,0 +1,40 @@
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        .container{
+            background-color: lightsalmon;
+            height: 300px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items:stretch;
+            /*Justify content alinha o main asis
+    flex start o item fica no main start e o espaço vazio perto no main end, o space between fica o primeiro menbro no main start e o último no main end, o space evenly cria o mesmo espaçamento entre os itens, space around divide em 3 espaços e centraliza no meio desses espaços*/
+
+    /* no align itens e no sentido do cross axis, streth alonga os itens sendo o padrão*/
+        }
+
+        .item{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
