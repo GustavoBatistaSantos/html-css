@@ -6,3 +6,45 @@ e o alingn contente alinha os itens no eixo transversal quando empacotados
 align-content por padrão é stretch
 
 alingn content: flex-start cola os itens no start e o end cola no end, e o centre fica no center-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        .container{
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-around;
+            /*os espaços do meio são o dobro so espaço start e end*/
+            height: 400px;
+        }
+
+        .item{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+    </div>
+</body>
+</html>
