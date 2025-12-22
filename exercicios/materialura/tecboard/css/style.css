@@ -4,14 +4,19 @@
     font-family: "Unbonded";
     src: url("../fonts/Unbounded-Bold.ttf")
     format("truetype");
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;/*quando demora pra carregar mostra a font normal ate atualizar */
 
+}
+
 @font-face {
     font-family: "Poppins";
-    src: url("");
-}
+    src: url("../fonts/Poppins-Regular.ttf")
+    format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;/*quando demora pra carregar mostra a font normal ate atualizar */
 }
 *{
     margin: 0px;
