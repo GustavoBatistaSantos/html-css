@@ -26,24 +26,53 @@
 body{
     background-color: #0E1014;
     color: #FFFFFF;
-    font-size: 24pt;
-    font-family: "Poppins", sans-serif;
-    font-weight: normal;
-    
+}
+
+header img{
+    display: block;
+    margin: 75px 0 0 360px;
 }
 
 h1{
-    font-size: 64pt;
+    font-size: 64px;
     font-family: "Unbounded", sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 24px;
 }
 
 h1 span{
     color: #9747FF;
 }
 
+p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
 
 a{
     color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;line-height: 66px; /*altura da linha*/
+    border-radius: 36px;
+    margin: 40px auto;
+    /*text-decoration: line-through; risca uma linha no meio*/
+}
+
+section img{
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0 auto;
 }
 /*h1,p,a{
     color: #FFFFFF;
