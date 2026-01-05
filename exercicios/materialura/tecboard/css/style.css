@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*definição de fontes*/
 @font-face {
     font-family: "Unbonded";
     src: url("../fonts/Unbounded-Bold.ttf")
@@ -18,11 +19,14 @@
     font-style: normal;
     font-display: swap;/*quando demora pra carregar mostra a font normal ate atualizar */
 }
+
+/*Reset*/
 *{
     margin: 0px;
     padding: 0px;
 }
 
+/*Estilo Desktop*/
 body{
     background-color: #0E1014;
     color: #FFFFFF;
@@ -50,6 +54,9 @@ p{
     font-family: "Poppins", sans-serif;
     font-weight: normal;
     text-align: center;
+    width: 792px;
+    display: block;
+    margin: 24px auto;
 }
 
 
@@ -68,6 +75,10 @@ a{
     /*text-decoration: line-through; risca uma linha no meio*/
 }
 
+a:hover{
+    background-color: #8233E8;
+}
+
 section img{
     display: block;
     width: 792px;
@@ -78,3 +89,37 @@ section img{
     color: #FFFFFF;
 } outra opção */
 
+@media(max-width: 768px){
+
+    header img{
+        margin: 65px 0px 0px 65px;
+    }
+
+    p{
+        width: 648px;
+    }
+}
+
+@media(max-width: 375px){
+    header img{
+        margin: 32px 0px 0px 16px;
+    } 
+
+    h1{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    a{
+        font-size: 20px;
+        width: 251px;
+    }
+
+    section img{
+        width: 340px;
+        height: 230px;
+    }
+}
