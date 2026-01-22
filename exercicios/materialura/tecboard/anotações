@@ -1,0 +1,5 @@
+Para novas modificações e funcionalidades adicionamos a branch feat ou feature/descrição da modificação
+
+para correção de problemas usamos uma branch bugfix ou fix/descrição do problema
+
+modificação de urgência na main usa hotfix/descrição do problema 
