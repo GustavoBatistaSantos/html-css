@@ -16,6 +16,18 @@
             <label for="userName">Nome</label>
             <input type="text" name="userName">
             <button type="submit">Enviar</button>
+
+            <label for="age">Idade</label>
+            <input type="number" name="age" min="12" max="100" required>
+
+            <label for="birthDate">Data de Nascimento</label>
+            <input type="date" name="birthDate">
+
+            <label for="userEmail">Email</label>
+            <input type="email" name="userEmail" required>
+
+            <label for="userPhoneNumber">Telefone</label>
+            <input type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + números sem espaço e sem hífen">
         </form>
     </section>
 </body>
