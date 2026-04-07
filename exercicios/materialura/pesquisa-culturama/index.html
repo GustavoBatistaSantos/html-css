@@ -10,9 +10,30 @@
         <h1>Pesquisa Online</h1>
     </header>
     <section>
+        
         <form action="" method="get">
-            <label for="userName">Nome</label>
-            <input type="text" name="userName">
+            <fieldset>
+                <!--Dados pessoais-->
+                <legend>Dados Pessoais</legend>
+                <label for="userName">Nome</label>
+            <input type="text" name="userName" required>
+            <br>
+            <label for="userAge">Idade</label>
+            <input type="number" name="age" min="12" max="100" required>
+             <br>
+            <label for="birthDate">Data de Nascimento</label>
+            <input type="date" name="birthDate">
+             <br>
+            <label for="userEmail">Email</label>
+            <input type="email" name="userEmail" required>
+             <br>
+            <label for="userNumberPhone">Telefone</label>
+            <input type="tel" name="userNumberPhone" pattern="[0-9]{11}" placeholder="DDD + número sem espaço e sem hífen">
+             <br>
+            <label for="userImage">upload de imagem</label>
+            <input type="file" accept="imahe/*" name="userImage"><!--o barra asterisco aceita qualquer imagem-->
+             <br>
+            </fieldset>
             <button type="submit">Enviar</button>
         </form>
     </section>
