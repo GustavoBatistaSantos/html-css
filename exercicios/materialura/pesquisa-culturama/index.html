@@ -12,41 +12,41 @@
     <section>
         
         <form action="" method="get">
-           <!-- <fieldset>
-                <--Dados pessoais-->
-                <!--<legend>Dados Pessoais</legend>
-                <label for="userName">Nome</label>
-                <input type="text" name="userName" required>
+            <fieldset>
+                <!--Dados pessoais-->
+                <legend>Dados Pessoais</legend>
+                <label for="name">Nome</label>
+                <input id="name" type="text" name="userName" required>
                 <br>
-                <label for="userAge">Idade</label>
-                <input type="number" name="age" min="12" max="100" required>
+                <label for="age">Idade</label>
+                <input id="age" type="number" name="age" min="12" max="100" required>
                 <br>
-                <label for="birthDate"> Data de Nascimento</label>
-                <input type="date" name="birthDate">
+                <label for="date"> Data de Nascimento</label>
+                <input id="date" type="date" name="birthDate">
                 <br>
-                <label for="userEmail">Email</label>
-                <input type="email" name="userEmail" required>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="userEmail" required>
                 <br>
-                <label for="userNumberPhone">Telefone</label>
-                <input type="tel" name="userNumberPhone" pattern="[0-9]{11}" placeholder="DDD + número sem espaço e sem hífen">
+                <label for="number">Telefone</label>
+                <input id="number" type="tel" name="userNumberPhone" pattern="[0-9]{11}" placeholder="DDD + número sem espaço e sem hífen">
                 <br>
-                <label for="userImage">upload de imagem</label>
-                <input type="file" accept="imahe/*" name="userImage"><!--o barra asterisco aceita qualquer imagem-->
-               <!--- <br>
+                <label for="image">upload de imagem</label>
+                <input id="image" type="file" accept="imahe/*" name="userImage"><!--o barra asterisco aceita qualquer imagem-->
+               <br>
             </fieldset>
             
-           <!-- <fieldset>
+            <fieldset>
                 <legend>Perfil</legend>
 
                 <p> Gênero:</p>
-                <input type="radio" name="userGender" value="feminino">
-                <label for="userGender">Feminino</label>
+                <input id="gender" type="radio" name="userGender" value="feminino">
+                <label for="gender">Feminino</label>
 
-                <input type="radio" name="userGender" value="Masculino">
-                <label for="userGender">Masculino</label>
+                <input id="genderm" type="radio" name="userGender" value="Masculino">
+                <label for="genderm">Masculino</label>
 
-                <input type="radio" name="userGender" value="notInformed">
-                <label for="userGender">Prefiro não informar</label>
+                <input id="gendern" type="radio" name="userGender" value="notInformed">
+                <label for="gendern">Prefiro não informar</label>
                 <br>
 
                 <label for="maritalStatus">Estado civil</label>
@@ -91,24 +91,32 @@
                     </select>
 
                     <label for="city">Cidade</label>
-                    <input type="text" name="city">
-            </fieldset> -->
+                    <input id="city" type="text" name="city">
+            </fieldset> 
 
             <fieldset>
                 <legend>Hábitos</legend>
                 <p>Redes Sociais:</p>
-                <input type="checkbox" name="social" value="instagram">
-                <label for="social">Instagram</label>
+                <input id="sociali" type="checkbox" name="social" value="instagram">
+                <label for="sociali">Instagram</label>
                 <br>
-                <input type="checkbox" name="social" value="facebook">
-                <label for="social">Facebook</label>
+                <input id="socialf" type="checkbox" name="social" value="facebook">
+                <label for="socialf">Facebook</label>
                 <br>
-                <input type="checkbox" name="social" value="linkedin">
-                <label for="social">Linkedin</label>
+                <input id="sociall" type="checkbox" name="social" value="linkedin">
+                <label for="sociall">Linkedin</label>
                 <br>
-                <input type="checkbox" name="social" value="x">
-                <label for="social">Xr</label>
+                <input id="socialx" type="checkbox" name="social" value="x">
+                <label for="socialx">X</label>
                 <br>
+                <label for="musicStyle">Estilo musical</label>
+                <input list="styleTypes" id="mudicStyle" name="userMusicStyle" type="text">
+                <datalist id="styleTypes">
+                    <option value="rock">
+                    <option value="pop">
+                    <option value="samba">
+                    <option value="sertanejo">
+                </datalist>
             </fieldset>
             <button type="submit">Enviar</button>
         </form>
