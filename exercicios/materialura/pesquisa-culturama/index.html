@@ -35,7 +35,8 @@
                     <input id="email" type="email" name="userEmail" required>
                     <br>
                     <label for="number">Telefone</label>
-                    <input id="number" type="tel" name="userNumberPhone" pattern="[0-9]{11}" placeholder="DDD + número sem espaço e sem hífen">
+                    <input id="number" type="tel" name="userNumberPhone" pattern="[0-9]{11}" placeholder="DDD + número sem espaço e sem hífen" aria-describedby="phoneHelp"><!--linka o id do small--> 
+                    <small id="phoneHelp">Preencha com 11 digitos no formato: DDD + numeros sem espaços ou hífen</small><!--passa instruções para os leitores de telas-->
                     <br>
                     <label for="image">upload de imagem</label>
                     <input id="image" type="file" accept="imahe/*" name="userImage"><!--o barra asterisco aceita qualquer imagem-->
