@@ -1,38 +1,46 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url(../fontes/Montserrat-VariableFont_wght.ttf);
-    font-style: normal;
-    font-display: swap;/*carrega a fonte de sistema mais proxima até não carregar essa fonte*/
+  font-family: "Montserrat";
+  src: url(../fontes/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap; /*carrega a fonte de sistema mais proxima até não carregar essa fonte*/
 }
 
-:root{
+:root {
+  --primary--color: #8f0101;
+  --secondary--color: #b81515;
 
-    --primary--color: #8f0101;
-    --secondary--color:#b81515;
+  --background--primary--color: #ffffff;
+  --background--secondary--color: #f5f5f5;
+  --background--tertiary--color: #0000;
 
-    --background--primary--color:#ffffff;
-    --background--secondary--color:#f5f5f5;
-    --background--tertiary--color:#0000;
+  --text--primary--color: #222222;
+  --text--secondary--color: #ffffff;
 
-    --text--primary--color:#222222;
-    --text--secondary--color:#ffffff;
-
-    --titles--weight:700;
-    --text--wight:400;
-    --menu--text--weight: 500;
+  --titles--weight: 700;
+  --text--wight: 400;
+  --menu--text--weight: 500;
 }
 
 /*CSS RESET*/
-body, img, h1, p, fieldset, legend, label, input,select, textarea, button{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    color: var(--buton--primary--color
-    );
-    font-family: 'Montserrat';
-    font-weight: var(--titles--weight);
-    color: var(--primary--color);
+h1 {
+  color: var(--buton--primary--color);
+  font-family: "Montserrat";
+  font-weight: var(--titles--weight);
+  color: var(--primary--color);
 }
