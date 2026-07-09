@@ -16,6 +16,10 @@ header{
 .navigation-menu{
     margin-top: 24px;
 }
+
+input[type='checkbox']:checked~nav{
+     display: block; /*o tio serve como seletor irmão que vai ser feito quando o estado tiver checked */
+}
 nav{
     display: none;
 }
