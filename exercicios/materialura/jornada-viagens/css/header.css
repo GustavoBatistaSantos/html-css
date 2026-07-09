@@ -5,6 +5,7 @@ header{
     justify-content: space-between;
     align-items: flex-start;
     padding: 38px 48px;
+    position: relative;
 }
 
 .logo{
@@ -19,7 +20,26 @@ header{
 
 input[type='checkbox']:checked~nav{
      display: block; /*o tio serve como seletor irmão que vai ser feito quando o estado tiver checked */
+     position: absolute;/*se basei do elemento pai com posiconamento relativo*/
+     top: 100%;
+     left: 0px;
+     width: 100%;
+     background-color: var(--background--tertiary--color);
 }
 nav{
     display: none;
+}
+
+.list-liks{
+    list-style: none;
+    font-family: 'Montserrat';
+}
+
+.list-liks li{
+    margin: 16px 0;
+}
+
+.list-liks li a{
+    color: var(--text--secondary--color);
+    text-decoration: none;
 }
