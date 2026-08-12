@@ -6,6 +6,15 @@
   background-size: cover;
 }
 
+.hero h2{
+    padding: 88px 24px ;
+    margin: 0px;
+    font-weight: var(--text--wight);
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -14,6 +23,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+.hero h2{
+    padding: 88px 60px ;
+    margin: 0px;
+    font-weight: var(--text--wight);
+    font-size: 32px;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -24,4 +41,30 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .hero h2{
+    padding: 88px 120px ;
+    margin: 0px;
+    font-weight: var(--text--wight);
+    font-size: 32px;
+  }  
 }
+
+@media screen and (min-width: 1920px) {
+  .hero-img {
+    height: 620px;
+    width: 100%;
+    background-image: url(../img/herodesktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero h2{
+    padding: 88px 160px ;
+    margin: 0px;
+    font-weight: var(--text--wight);
+    font-size: 32px;
+  }  
+}
+
+
