@@ -40,7 +40,16 @@ button {
 
 body{
   font-family: "Montserrat";
+  color: var(--text--primary--color);
 }
 
+.section-title h2{
+  font-size: 28px;
+  font-weight: var(--titles--weight);
+  margin: 0;
+  text-align: center;
+}
+.section-title hr{
 
+}
 
