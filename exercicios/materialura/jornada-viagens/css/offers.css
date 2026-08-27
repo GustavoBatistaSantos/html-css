@@ -2,7 +2,7 @@
   color: var(--text--secondary--color);
   background-color: black;
   width: 312px;
-  height: 288px;
+  min-height: 288px;
   box-sizing: border-box; /*faz ele desconsiderar o padding, e ajustar para o tamanho de width e height desejado*/
   padding: 24px 16px;
   border-radius: 16px;
@@ -34,7 +34,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
+  .cards {
     width: 588px;
     height: 308px;
   }
