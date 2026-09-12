@@ -9,7 +9,7 @@
 .hero h2{
     padding: 88px 24px ;
     margin: 0px;
-    font-weight: var(--text--wight);
+    font-weight: var(--text--weight);
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
@@ -27,7 +27,7 @@
 .hero h2{
     padding: 88px 60px ;
     margin: 0px;
-    font-weight: var(--text--wight);
+    font-weight: var(--text--weight);
     font-size: 32px;
   }
 
@@ -45,7 +45,7 @@
   .hero h2{
     padding: 88px 120px ;
     margin: 0px;
-    font-weight: var(--text--wight);
+    font-weight: var(--text--weight);
     font-size: 32px;
   }  
 }
@@ -62,7 +62,7 @@
   .hero h2{
     padding: 88px 160px ;
     margin: 0px;
-    font-weight: var(--text--wight);
+    font-weight: var(--text--weight);
     font-size: 32px;
   }  
 }

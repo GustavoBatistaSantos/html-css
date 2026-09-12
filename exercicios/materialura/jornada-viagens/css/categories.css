@@ -20,12 +20,12 @@
 
 .categories-cards .cards h3{
     font-size: 28px;
-    font-weight: var(--title--weight);
+    font-weight: var(--titles--weight);
 }
 .categories-cards .cards.single-line{
     padding: 50px;
 }
 
-.categories-cards .cards.single-line .transfer img{
+.categories-cards .cards.single-line.transfer img{
     margin: 10px 0 20px;
 }

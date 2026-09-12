@@ -28,10 +28,10 @@
   font-size: 20px;
   font-weight: var(--text--weight);
 }
-.offers.cards .cards header h3 {
+.offers-cards .cards header h3 {
   font-size: 40px;
   font-weight: var(--titles--weight);
-  margin-top: 8px 0px 0px;
+  margin: 8px 0 0;
 }
 .offers-cards .cards header span {
   font-size: 32px;
@@ -67,21 +67,21 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .cards {
+  .offers-cards .cards {
     width: 420px;
     height: 308px;
   }
 
-  .cards header h3 {
+  .offers-cards .cards header h3 {
     font-size: 48px;
   }
-  .cards header span {
+  .offers-cards .cards header span {
     font-size: 40px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .cards {
+  .offers-cards .cards {
     width: 588px;
   }
 }
